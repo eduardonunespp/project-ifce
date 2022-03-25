@@ -204,7 +204,7 @@ footer{
 }
 
 footer p{
-    width: 50%;
+    width: 70%;
     color: rgb(184, 184, 184);
     line-height: 1.5em;
     font-size: 0.8em;
@@ -349,6 +349,14 @@ nav a:hover .fa-solid{
 
     footer p{
 
+    }
+
+    .boxdad .boxun{
+        flex: 100%;
+    }
+
+    header input[type='search']:hover{
+        width: 150px;
     }
 
 }
