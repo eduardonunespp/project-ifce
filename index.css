@@ -204,7 +204,7 @@ footer{
 }
 
 footer p{
-    width: 400px;
+    width: 50%;
     color: rgb(184, 184, 184);
     line-height: 1.5em;
     font-size: 0.8em;
@@ -345,6 +345,10 @@ nav a:hover .fa-solid{
         border-bottom: 1px solid white;
         padding-bottom: 30px;
         height: 120px;            
+    }
+
+    footer p{
+
     }
 
 }
