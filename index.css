@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Varela+Round&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: var(--font1);
+}
+
+:root{
+    --colorp: rgb(0, 44, 23);
+    --font1: 'Varela Round', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+.menup{
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1400px;
+    margin: auto; 
+}
+
+nav{
+    width: 20%;
+    padding-left: 0px;
+    background-color: var(--colorp);
+    height: 800px;
+}
+
+nav .naveg ul{
+    padding: 0px;
+    list-style-type: none;
+    float: right;
+}
+
+nav li{
+    margin-bottom: 0px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(231, 231, 231);
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 7px 0px 0px 7px;
+    margin-bottom: 8px;
+    font-size: 0.8em;
+    padding-right: 80px;
+    transition-duration: 0.8s;
+    width: 100%;
+}
+
+.naveg{
+    float: right;
+    width: 100%;
+}
+
+nav a:hover{
+    background-color: white;
+    color: rgb(37, 37, 37);
+}
+
+.principal{
+    width:  80%;
+    background-color:  rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.boxdad{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+} 
+
+.boxun{
+    flex: 22%;
+    margin: 7px;
+    padding: 10px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 8px;
+    transition-duration: 0.8s;
+    box-shadow: 0px 0px 5px rgb(180, 180, 180);
+    cursor: pointer;
+    text-align: justify;
+}
+
+.boxun:hover{
+    transform: translate(-8px, -8px);
+    box-shadow: 5px 5px 0px rgb(0, 73, 0);
+}
+
+.boxun h3{
+    font-size: 1.0em;
+    border-bottom: 2px solid rgb(0, 44, 23);
+    color: rgb(61, 61, 61);
+    padding-bottom: 10px;
+}
+
+.boxun p{
+    font-size: 0.8em;
+    color: rgb(46, 46, 46);
+    line-height: 1.5em;
+}
+
+.ftp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.imgf{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 230px;
+    background-color: rgba(75, 75, 75, 0.507);
+    border-radius: 15px;
+    background-image: url('ifce-campus-maracanaues.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 1.0;
+    padding: 25px;
+    border-left: 5px solid var(--colorp);
+    border-right: 5px solid var(--colorp);
+    border-bottom: 8px solid var(--colorp);
+    transition-duration: 0.3s;
+}
+
+.imgf h3{
+    font-size: 1.7em;
+    color: rgb(255, 255, 255);   
+}
+
+.imgf p{
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.imgf button{
+    padding: 12px 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.7s;
+    font-size: 0.7em;
+} 
+
+.imgf button:hover{
+    background-color: rgb(251, 251, 251);
+    color: black;
+}
+
+.imgf button:active{
+    transform: scale(0.7, 0.7);
+}
+
+.line{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(0, 44, 23);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.principal header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header input[type='search'] {
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    border: 1px solid #ccc;
+    color: rgb(131, 127, 127);
+    transition-duration: 0.7s;
+    font-size: 0.8em;
+}
+
+header input[type='search']:focus{
+    background-color: var(--colorp);
+    color: white;
+}
+
+header input[type='search']:hover{
+    width: 250px;
+}
+
+footer{
+    padding: 30px;
+    background-color: var(--colorp);
+    border-top: 2px solid white;
+}
+
+footer p{
+    width: 400px;
+    color: rgb(184, 184, 184);
+    line-height: 1.5em;
+    font-size: 0.8em;
+    margin: auto;
+    text-align: center;
+}
+
+.fter{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.fter ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.fter li a{
+    color: rgb(160, 160, 160);
+    display: block;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+.fter li a:hover{
+    color: rgb(116, 116, 116);
+}
+
+.fa-solid{
+    color: rgb(255, 255, 255);
+    display: inline;
+    font-size: 15px;
+    margin: 0px 12px;
+    transition: 0.7s;
+}
+
+.search .fa-magnifying-glass{
+    color: #ccc;
+}
+.search .fa-magnifying-glass:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.search .fa-magnifying-glass:active{
+    text-shadow: 0px 0px 5px #ccc;
+}
+
+nav a:hover .fa-solid{
+    color: black;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+.image{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.image img{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 800px){
+    .boxun{
+        flex: 40%;
+        margin: 10px;
+    }
+
+    .boxun:hover{
+        flex: 45%;
+    }
+
+    nav .image{
+        margin-bottom: 40px;
+    }
+
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 550px;
+        padding: 12px;
+    }
+
+    nav .naveg{
+        width: 100%;
+    }
+
+    nav .naveg ul {
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+    }
+
+    nav .naveg ul li{
+       width: 47%;
+       float: left;
+       margin: 5px;
+    }
+
+    nav .naveg ul li a{
+        display: inline-block;
+        padding-right: 0px;
+        border-radius: 5px; 
+    }
+
+    .principal{
+        width: 100%;
+    }
+
+    .principal .imgf{
+        height: 150px;
+        background-size: 100%;
+        padding: 10px;
+        background-repeat: repeat-y;
+    }
+
+    .principal .imgf h3{
+        font-size: 1.0em;
+    }
+
+    .principal .imgf p{
+        margin-bottom: 10px;
+        font-size: 0.8em;
+    }
+
+    .principal .imgf button{
+        padding: 8px 10px;
+    }
+
+    nav .image{
+        border-bottom: 1px solid white;
+        padding-bottom: 30px;
+        height: 120px;            
+    }
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/034fe8f0bb.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Varela+Round&display=swap');
+        *{
+            font-family: 'Varela Round', sans-serif;
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-color: rgb(41, 38, 38);
+        }
+
+        .alert{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            
+        }
+        .alert p{
+            font-size: 1.3em;
+            color: #ccc;
+            font-family: 'Varela Round', sans-serif;
+            margin: 10px 0px;
+        }
+        .fa-solid{
+            font-size: 7em;
+            color: #ccc;
+        }
+        button{
+            padding: 12px 25px;
+            border: none;
+            border-radius: 7px;
+            background-color: #ccc;
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            transition-duration: 0.5s;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: rgb(141, 141, 141);
+        }
+        button:active{
+            
+            /*padding: 8px 18px;*/
+            transform: scale(0.8,0.8);
+        }
+        button {
+            font-family: 'Varela Round', sans-serif;
+            font-size: 0.8em;
+            color:black;
+         
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class='alert'>
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <p>Ops...</p>
+        <p style='font-size: 0.9em;'>Talvez em um projeto futuro.</p>
+    </div>
+
+    <a href='index.html'><button>Voltar</button></a>
+    
+</body>
+</html>
