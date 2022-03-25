@@ -205,12 +205,12 @@ footer{
 }
 
 footer p{
-    width: 80%;
+    width: 90%;
     color: rgb(184, 184, 184);
     line-height: 1.5em;
     font-size: 0.8em;
     margin: auto;
-    text-align: center;
+    text-align: justify;
 }
 
 .fter{
