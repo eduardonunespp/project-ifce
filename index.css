@@ -117,14 +117,14 @@ nav a:hover{
 .imgf{
     width: 100%;
     margin-bottom: 30px;
-    height: 230px;
+    height: 240px;
     background-color: rgba(75, 75, 75, 0.507);
     border-radius: 15px;
     background-image: url('ifce-campus-maracanaues.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     opacity: 1.0;
-    padding: 25px;
+    padding: 30px;
     border-left: 5px solid var(--colorp);
     border-right: 5px solid var(--colorp);
     border-bottom: 8px solid var(--colorp);
