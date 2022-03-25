@@ -356,6 +356,7 @@ nav a:hover .fa-solid{
     header input[type='search']{
         width: 130px;
     }
+    
     header input[type='search']:hover{
         width: 190px;
     }
