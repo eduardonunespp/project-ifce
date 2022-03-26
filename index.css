@@ -72,39 +72,56 @@ nav a:hover{
 
 .boxdad{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-} 
-
-.boxun{
-    flex: 22%;
-    margin: 7px;
-    padding: 10px;
-    background-color: rgb(236, 236, 236);
-    height: 200px;
-    border-radius: 8px;
-    transition-duration: 0.8s;
-    box-shadow: 0px 0px 5px rgb(180, 180, 180);
-    cursor: pointer;
-    text-align: justify;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.boxun:hover{
+
+.boxdad .boxun10{
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    height: 200px;
+    width: 24%;
+    border-radius: 10px;
+    transition: 1s;
+    margin: 0px;
+}
+
+
+.boxdad .boxun10:hover{
     transform: translate(-8px, -8px);
     box-shadow: 5px 5px 0px rgb(0, 73, 0);
 }
-
-.boxun h3{
-    font-size: 1.0em;
-    border-bottom: 2px solid rgb(0, 44, 23);
-    color: rgb(61, 61, 61);
-    padding-bottom: 10px;
+.boxun10 .top{
+    height: 27%;
+    background-image: url('—Pngtree—trendy\ dark\ green\ geometric\ line_1293555.png');
+    background-size: 33%;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px; 
 }
 
-.boxun p{
-    font-size: 0.8em;
-    color: rgb(46, 46, 46);
+.boxun10 .bottom{
+    height: 73%;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+}
+
+.bottom h2{
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(14, 56, 14);
+    border-bottom: 2px solid rgb(10, 53, 10);
+    padding-bottom: 5px;
+}
+.bottom p{
+    font-size: 0.7em;
     line-height: 1.5em;
+    text-align: justify;
 }
 
 .ftp{
@@ -348,9 +365,10 @@ nav a:hover .fa-solid{
         height: 120px;            
     }
 
-    .boxdad .boxun{
-        flex: 100%;
-        height: 200px;
+    .boxdad .boxun10{
+        width: 90%;
+        height: 150px;
+        margin-bottom: 15px;
     }
 
     header input[type='search']{
