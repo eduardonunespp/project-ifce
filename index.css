@@ -214,6 +214,9 @@ header input[type='search']:focus{
 header input[type='search']:hover{
     width: 250px;
 }
+header .search:hover .fa-magnifying-glass{
+    color: black;
+}
 
 footer{
     padding: 30px;
